@@ -183,6 +183,166 @@ uint32_t step(uint32_t step)
 		{
 			return (roll_dice(2, 20) + roll_dice(1, 12) + roll_dice(1, 10) + roll_dice(1, 8));
 		}
+		case 41:
+		{
+			return roll_dice(20, 3) + roll_dice(6, 3);
+		}
+		case 42:
+		{
+			return roll_dice(20, 3) + roll_dice(8, 2) + roll_dice(6, 2);
+		}
+		case 43:
+		{
+			return roll_dice(20, 3) + roll_dice(8, 3);
+ 		}
+		case 44:
+		{
+			return roll_dice(20, 3) + roll_dice(10, 2) + roll_dice(8, 2);
+		}
+		case 45:
+		{
+			return roll_dice(20, 3) + roll_dice(10, 3);
+		}
+		case 46:
+		{
+			return roll_dice(20, 3) + roll_dice(12, 2) + roll_dice(10, 2);
+		}
+		case 47:
+		{
+			return roll_dice(20, 3) + roll_dice(12, 3);
+		}
+		case 48:
+		{
+			return roll_dice(20, 3) + roll_dice(20, 3) + roll_dice(12, 2) + roll_dice(6, 3);
+		}
+		case 49:
+		{
+			return roll_dice(20, 3) + roll_dice(12, 2) + roll_dice(8, 2) + roll_dice(6, 2);
+		}
+		case 50:
+		{
+			return roll_dice(20, 3) + roll_dice(12, 2) + roll_dice(8, 3);
+		}
+		case 51:
+		{
+			return roll_dice(20, 3) + roll_dice(12, 2) + roll_dice(10, 2) + roll_dice(8, 2);
+		}
+		case 52:
+		{
+			return roll_dice(20, 4) + roll_dice(6, 4);
+		}
+		case 53:
+		{
+			return roll_dice(20, 4) + roll_dice(8, 3) + roll_dice(6, 3);
+		}
+		case 54:
+		{
+			return roll_dice(20, 4) + roll_dice(8, 4);
+		}
+		case 55:
+		{
+			return roll_dice(20, 4) + roll_dice(10, 3) + roll_dice(8, 3);
+		}
+		case 56:
+		{
+			return roll_dice(20, 4) + roll_dice(10, 4);
+		}
+		case 57:
+		{
+			return roll_dice(20, 4) + roll_dice(12, 3) + roll_dice(10, 3);
+		}
+		case 58:
+		{
+			return roll_dice(20, 4) + roll_dice(12, 4);
+		}
+		case 59:
+		{
+			return roll_dice(20, 4) + roll_dice(12, 3) + roll_dice(6, 4);
+		}
+		case 60:
+		{
+			return roll_dice(20, 4) + roll_dice(12, 3) + roll_dice(8, 3);
+		}
+		case 61:
+		{
+			return roll_dice(20, 4) + roll_dice(12, 3) + roll_dice(8, 4);
+		}
+		case 62:
+		{
+			return roll_dice(20, 4) + roll_dice(12, 3) + roll_dice(10, 3) + roll_dice(8, 3);
+		}
+		case 63:
+		{
+			return roll_dice(20, 5) + roll_dice(6, 5);
+		}
+		case 64:
+		{
+			return roll_dice(20, 5) + roll_dice(8, 4) + roll_dice(6, 4);
+		}
+		case 65:
+		{
+			return roll_dice(20, 5) + roll_dice(8, 5);
+		}
+		case 66:
+		{
+			return roll_dice(20, 5) + roll_dice(10, 4) + roll_dice(8, 4);
+		}
+		case 67:
+		{
+			return roll_dice(20, 5) + roll_dice(10, 5);
+		}
+		case 68:
+		{
+			return roll_dice(20, 5) + roll_dice(12, 4) + roll_dice(10, 4);
+		}
+		case 69:
+		{
+			return roll_dice(20, 5) + roll_dice(12, 5);
+		}
+		case 70:
+		{
+			return roll_dice(20, 5) + roll_dice(12, 4) + roll_dice(6, 4);
+		}
+		case 71:
+		{
+			return roll_dice(20, 5) + roll_dice(12, 4) + roll_dice(8, 4) + roll_dice(6, 4);
+		}
+		case 72:
+		{
+			return roll_dice(20, 5) + roll_dice(12, 4) + roll_dice(8, 5);
+		}
+		case 73:
+		{
+			return roll_dice(20, 5) + roll_dice(12, 4) + roll_dice(10, 4) + roll_dice(8, 4);
+		}
+		case 74:
+		{
+			return roll_dice(20, 6) + roll_dice(6, 6);
+		}
+		case 75:
+		{
+			return roll_dice(20, 6) + roll_dice(8, 5) + roll_dice(6, 5);
+		}
+		case 76:
+		{
+			return roll_dice(20, 6) + roll_dice(8, 6);
+		}
+		case 77:
+		{
+			return roll_dice(20, 6) + roll_dice(10, 5) + roll_dice(8, 5);
+		}
+		case 78:
+		{
+			return roll_dice(20, 6) + roll_dice(10, 6);
+		}
+		case 79:
+		{
+			return roll_dice(20, 6) + roll_dice(12, 5) + roll_dice(10, 5);
+		}
+		case 80:
+		{
+			return roll_dice(20, 6) + roll_dice(12, 6);
+		}
 		default:
 		{
 			return 0;
