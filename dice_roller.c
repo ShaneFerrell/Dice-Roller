@@ -6,7 +6,15 @@
 
 uint32_t roll_dice(uint32_t sides)
 {
-	return (rand() % sides) + 1;
+	uint32_t roll = 0, sum = 0;
+
+	do
+	{
+	    roll = ((rand() % sides) + 1);
+	    sum += roll;
+	} while(roll == sides);
+
+    return sum;
 }
 
 uint32_t step(uint32_t step)
@@ -27,63 +35,11 @@ uint32_t step(uint32_t step)
 		}
 		case 4:
 		{
-			int sum = 0;
-			int roll;
-
-			do
-			{
-				roll = roll_dice(6);
-				sum	+= roll;
-			} while(roll == 6);
-
-			return sum;
-		}
-		case 5:
-		{
-			int sum = 0;
-			int roll;
-
-			do
-			{
-				roll = roll_dice(8);
-				sum	+= roll;
-			} while(roll == 8);
-
-			return sum;	
-		}	
-		case 6:
-		{
-			int sum = 0;
-			int roll;
-
-			do
-			{
-				roll = roll_dice(10);
-				sum	+= roll;
-			} while(roll == 10);
-
-			return sum;	
-		}
-		case 7:
-		{
-			int sum = 0;
-			int roll;
-
-			do
-			{
-				roll = roll_dice(12);
-				sum += roll;
-			} while(roll == 12);
-
-			return sum;	
-		}
-		case 8:
-		{
-
+			return roll_dice(6);
 		}
 		default:
 		{
-			return 1;
+			return 0;
 		}
 	}
 }
