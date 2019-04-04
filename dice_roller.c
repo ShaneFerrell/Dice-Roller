@@ -20,7 +20,7 @@ uint32_t roll_dice( uint32_t number_of_dice, uint32_t sides)
 	return sum;
 }
 
-//this function tells how many dices to roll which dice
+//this function tells how many dices to roll which dice.
 uint32_t step(uint32_t step)
 {
 	switch(step)
