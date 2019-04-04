@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//this function rolls dice
 uint32_t roll_dice( uint32_t number_of_dice, uint32_t sides)
 {
 	uint32_t roll = 0, sum = 0;
@@ -19,6 +20,7 @@ uint32_t roll_dice( uint32_t number_of_dice, uint32_t sides)
 	return sum;
 }
 
+//this function tells how many dices to roll which dice
 uint32_t step(uint32_t step)
 {
 	switch(step)
@@ -350,6 +352,7 @@ uint32_t step(uint32_t step)
 	}
 }
 
+//main function rolls dice according to the arguments
 int main(int argc, char *argv[])
 {
 	srand(time(0));
